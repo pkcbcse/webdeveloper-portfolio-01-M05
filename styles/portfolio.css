@@ -104,6 +104,9 @@ main{
   margin: 0 auto;
   
 }
+main section{
+    margin-top: 130px;
+}
 
 /* About section styles */
 .about{
@@ -119,6 +122,27 @@ main{
 .about-info{
   text-align: center;
 }
+
+/* skills related styles */
 #what-i-do-description{
+  /* width: 909px; */
   padding: 30px 150px;
+}
+
+.skills-container{
+  display: flex;
+}
+.skill{
+  padding: 30px;
+}
+.skill-description{
+  color: #757575;
+  
+}
+.resume-column-title{
+color: #474747);
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
